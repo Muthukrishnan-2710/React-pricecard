@@ -1,0 +1,35 @@
+/* src/PricingCard.css */
+
+
+.pricing-card {
+    border: 1px solid #be0909;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+    background-color: #8d961a;
+  }
+  
+  .pricing-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .price {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #113d6e;
+  }
+  
